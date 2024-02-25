@@ -12,3 +12,9 @@ var nombreMesActual = nombresMeses[indiceMesActual];
 
 let txtMesActual = document.querySelector(".mesactual");
 txtMesActual.textContent = nombreMesActual;
+
+let cervezaFosforescente = document.querySelector(".cerveza-fosforescente");
+
+let get_style = window.getComputedStyle(cervezaFosforescente);
+// console.log(cervezaFosforescente);
+console.log(get_style);
