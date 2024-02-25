@@ -6,48 +6,43 @@ https://templatemo.com/tm-583-festava-live
 
 */
 
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #c01f27;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
-
-  --body-font-family:             'Outfit', sans-serif;
-
-  --h1-font-size:                 74px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  18px;
-  --btn-font-size:                14px;
-  --copyright-font-size:          16px;
-
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
-
-  --font-weight-light:            300;
-  --font-weight-normal:           400;
-  --font-weight-bold:             700;
+  --white-color: #ffffff;
+  --primary-color: #F8CB2E;
+  --secondary-color: #EE5007;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #EE5007;
+  --custom-btn-bg-hover-color: #c01f27;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #B22727;
+  --body-font-family: 'Outfit', sans-serif;
+  --h1-font-size: 74px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --btn-font-size: 14px;
+  --copyright-font-size: 16px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
-
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -106,7 +101,7 @@ ul li {
   font-weight: var(--font-weight-light);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -208,10 +203,10 @@ strong {
   transform-origin: 19px 15px;
 }
 
-
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
+
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -260,38 +255,38 @@ strong {
   margin-right: 15px;
 }
 
-.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   color: var(--primary-color);
 }
 
 .nav-tabs h5 {
-  color: var(--p-color); 
+  color: var(--p-color);
   margin-bottom: 0;
 }
 
 .nav-tabs .nav-link.active h5,
-.nav-tabs .nav-link:focus h5, 
+.nav-tabs .nav-link:focus h5,
 .nav-tabs .nav-link:hover h5 {
   color: var(--primary-color);
 }
 
-
 /*---------------------------------------
   CUSTOM ICON COLOR               
 -----------------------------------------*/
+
 .custom-icon {
   color: var(--secondary-color);
 }
 
-
 /*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
+
 .custom-btn {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
@@ -327,10 +322,10 @@ strong {
   color: var(--white-color);
 }
 
-
 /*---------------------------------------
   VIDEO              
 -----------------------------------------*/
+
 .video-wrap {
   z-index: -100;
 }
@@ -344,20 +339,20 @@ strong {
   height: 100%;
 }
 
-
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
+
 .site-header {
   background-color: var(--primary-color);
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
+
 .sticky-wrapper {
   position: absolute;
   top: 0;
@@ -398,7 +393,7 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
@@ -469,10 +464,10 @@ strong {
   top: 8px;
 }
 
-
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -501,10 +496,10 @@ strong {
   height: 100%;
 }
 
-
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
+
 .about-section {
   background-image: url('../images/edward-unsplash-blur.jpg');
   background-color: #704010;
@@ -546,10 +541,10 @@ strong {
   padding: 35px;
 }
 
-
 /*---------------------------------------
   TICKET               
 -----------------------------------------*/
+
 .ticket-section {
   background-image: url('../images/nicholas-green-unsplash-blur.jpg');
   background-repeat: no-repeat;
@@ -582,10 +577,10 @@ strong {
   height: 100%;
 }
 
-
 /*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
+
 .artists-thumb {
   position: relative;
   overflow: hidden;
@@ -639,10 +634,10 @@ strong {
   margin: 1.5rem 0;
 }
 
-
 /*---------------------------------------
   SCHEDULE              
 -----------------------------------------*/
+
 .schedule-section {
   background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
   background-color: #242424;
@@ -650,8 +645,9 @@ strong {
   background-position: center;
   background-size: cover;
 }
+
 .table-responsive {
-	filter: drop-shadow(2px 2px 4px #606060);
+  filter: drop-shadow(2px 2px 4px #606060);
 }
 
 .schedule-table {
@@ -720,10 +716,10 @@ strong {
   z-index: 2;
 }
 
-
 /*---------------------------------------
   PRICING              
 -----------------------------------------*/
+
 .pricing-thumb {
   border: 5px dotted var(--dark-color);
   border-radius: var(--border-radius-medium);
@@ -779,18 +775,18 @@ strong {
   color: var(--link-hover-color);
 }
 
-
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
+
 .google-map {
   border-radius: var(--border-radius-medium);
 }
 
-
 /*---------------------------------------
   CUSTOM FORM               
 -----------------------------------------*/
+
 .custom-form .form-control {
   color: var(--p-color);
   margin-bottom: 24px;
@@ -816,10 +812,10 @@ strong {
   border-color: transparent;
 }
 
-
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
+
 .site-footer {
   background-color: var(--dark-color);
   position: relative;
@@ -829,7 +825,7 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
+  /*  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');*/
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -842,7 +838,7 @@ strong {
 }
 
 .site-footer-title {
-  color: var(--primary-color); 
+  color: var(--primary-color);
 }
 
 .site-footer-link,
@@ -864,10 +860,10 @@ strong {
   font-size: var(--copyright-font-size);
 }
 
-
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
+
 .social-icon {
   margin: 0;
   padding: 0;
@@ -902,7 +898,7 @@ strong {
   display: block;
 }
 
-.social-icon-link span:hover::before{
+.social-icon-link span:hover::before {
   animation: spinAround 2s linear infinite;
 }
 
@@ -915,77 +911,61 @@ strong {
   }
 }
 
-
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 62px;
   }
-
   h2 {
     font-size: 36px;
   }
-
   h3 {
     font-size: 32px;
   }
-
   h4 {
     font-size: 28px;
   }
-
   h5 {
     font-size: 20px;
   }
-
   h6 {
     font-size: 18px;
   }
-
   .section-padding {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
   .navbar {
     background-color: var(--dark-color);
   }
-
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
   }
-
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
   }
-
   .hero-section {
     padding-top: 150px;
   }
-
   .pricing-thumb {
     padding: 35px;
   }
-
   .schedule-table h3 {
     font-size: 22px;
   }
-
   .schedule-table th {
     padding: 20px;
   }
-
-  .schedule-table tr, 
+  .schedule-table tr,
   .schedule-table td {
     padding: 25px;
   }
-
   .ticket-section {
     padding-top: 130px;
   }
-
   .ticket-form {
     padding: 30px;
   }
@@ -1002,21 +982,16 @@ strong {
   h1 {
     font-size: 52px;
   }
-
   h2 {
     font-size: 28px;
   }
-
   h3 {
     font-size: 26px;
   }
-
   h4 {
     font-size: 22px;
   }
-
   h5 {
     font-size: 20px;
   }
 }
-
