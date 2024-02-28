@@ -13,3 +13,7 @@ p {
 .cerveza-fosforescente {
 	/*	height: 700px;*/
 }
+
+.imagenes-aperitivo .artists-image-wrap img {
+	height: 380px !important;
+}
